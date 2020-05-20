@@ -89,10 +89,10 @@ Establish REMOTE using Git CLI:
 "git remote add origin <server>"
 2. Now you are able to push your changes to the selected remote server
 
-
+ 
 RESOURCES:
 https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 https://guides.github.com/activities/hello-world/
 https://rogerdudler.github.io/git-guide/
 https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-on-github
-
+https://help.github.com/en/enterprise/2.13/user/articles/fetching-a-remote
