@@ -1,19 +1,41 @@
 # A03
 Web Development Class
 
-GITHUB: Github is an open source version control system created by Linus Torvalds, the creator of Linux. This version control system allows for users to commit edits, clone duplicates, branch off to create iterative changes, merge multiple interations together, and more on repositories (a collection of documents or sourcecode). 
+
+- Set Up Git / Webstorm / Github
+
+GIT: Use GIT on your cli to use Github api.
+INSTALL GIT
+1. Download from :https://git-scm.com/downloads
+
+GITHUB: Github is an open source (web-based) version control system created by Linus Torvalds, the creator of Linux. This version control system allows for users to commit edits, clone duplicates, branch off to create iterative changes, merge multiple interations together, and more on repositories (a collection of documents or sourcecode).
+2. CREATE GITHUB ACCOUNT
+
+WEBSTORM: Lets you manage Git projects hosted on GitHub directly from the IDE or code editor. Some IDE's have this built-in functionality to run git commands as a remote.
+INSTALL WEBSTORM:
+3. Download from :https://www.jetbrains.com/student/
 
 
-GIT: You can also install GIT on your cli as a remote to push changes, pull repos, and fetch repos.
+- Connect Github with Webstorm
+
+1. In Webstorm press (Ctrl+Alt+S) for system preferences.
+2. Select Version control Git. Enter the path to the git.exe
+3. In Webstorm press (Ctrl+Alt+S) for system preferences.
+4. Select Appearance and Behavior | System Settings | Passwords. Enter Github Password.
 
 
-REPOSITORY: Usually there is a single repository per project. Each repository contains files, folders, and a README page (a file that provides an overview/description of the project). 
-Create a REPOSITORY by:
-1. Clicking the "+" in the top right of the screen.
+- Create a REPOSITORY
+
+REPOSITORY: Usually there is a single repository per project. Each repository contains files, folders, and a README page (a file that provides an overview/description of the project).
+1. In Github, Click the "+" in the top right of the screen.
 2. Name your repo.
 3. Write a short description.
 4. Then initialize the repo with a README page.
 5. Lastly, press the green "Create repository" button.
+6. In Webstorm, Select VCS and Import into Version Control
+7. From Main page Select Checkout from version control -> Git  ORFrom within Webstorm Select VCS -> Checkout from version control -> Git
+8. Enter Github repository name
+9. Enter local path name.
 
 
 BRANCH: Branching is a unique feature that allows you to create an object-oriented alias of the original repo (called the MASTER). This is useful to test changes before committing them to the original MASTER repo.
